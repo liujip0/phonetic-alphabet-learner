@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "liujip0-web-template",
+  "name": "liujip0-web-frontend-template",
   "compatibility_date": "2025-08-01",
   "send_metrics": false,
   "assets": {
