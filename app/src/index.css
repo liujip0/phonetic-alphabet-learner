@@ -1,0 +1,27 @@
+:root {
+  --text-font-family: ;
+  --text-body-size: ;
+  --text-h1-size: ;
+
+  --color-primary: ;
+  --color-primary-contrastText: ;
+  --color-secondary: ;
+  --color-secondary-contrastText: ;
+  --color-background: ;
+  --color-background-contrastText: ;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
