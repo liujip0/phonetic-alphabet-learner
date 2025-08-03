@@ -1,14 +1,20 @@
 :root {
   --text-font-family: ;
-  --text-body-size: ;
-  --text-h1-size: ;
+  --text-body-size: 1em;
+  --text-h1-size: 2em;
+  --text-h2-size: 1.5em;
+  --text-label-size: 1em;
 
-  --color-primary: ;
-  --color-primary-contrastText: ;
+  --color-primary: teal;
+  --color-primary-contrastText: white;
   --color-secondary: ;
   --color-secondary-contrastText: ;
   --color-background: ;
   --color-background-contrastText: ;
+  --color-error: red;
+  --color-error-contrastText: white;
+  --color-success: green;
+  --color-success-contrastText: white;
 }
 
 * {

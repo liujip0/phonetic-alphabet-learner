@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  background-color: var(--color-primary);
+  color: var(--color-primary-contrastText);
+  padding: 16px 32px;
+}
+
+.homeLink {
+  color: var(--color-primary-contrastText);
+  text-decoration: none;
+}
+
+.heading {
+  font-family: var(--text-font-family);
+  font-size: var(--text-h2-size);
+}
+
+.record {
+  display: flex;
+  gap: 16px;
+  margin-left: auto;
+  align-items: center;
+}
+
+.recordText {
+  font-family: var(--text-font-family);
+  font-size: var(--text-body-size);
+}
+
+.footer {
+  padding: 16px;
+
+  font-family: var(--text-font-family);
+  font-size: var(--text-body-size);
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.question {
+  font-family: var(--text-font-family);
+  font-size: 8em;
+}
+
+.prevQuestionStatus {
+  font-family: var(--text-font-family);
+  font-size: var(--text-label-size);
+}
+.prevQuestionStatusCorrect {
+  color: var(--color-success);
+}
+.prevQuestionStatusIncorrect {
+  color: var(--color-error);
+}
