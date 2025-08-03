@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "liujip0-web-frontend-template",
+  "name": "phonetic-alphabet-learner",
   "compatibility_date": "2025-08-01",
   "send_metrics": false,
   "assets": {

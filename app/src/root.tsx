@@ -16,7 +16,7 @@ import styles from "./root.module.css";
 export const meta: MetaFunction = () => {
   return [
     {
-      title: "liujip0-web-frontend-template",
+      title: "phonetic-alphabet-learner",
     },
   ];
 };
