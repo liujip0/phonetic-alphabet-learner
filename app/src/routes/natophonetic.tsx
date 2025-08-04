@@ -91,10 +91,12 @@ export default function NatoPhonetic() {
         </Link>
         <h2 className={styles.heading}>NATO Phonetic Alphabet</h2>
         <div className={styles.record}>
-          <div>
+          <div className={styles.recordText}>
             {record[0]}/{record[1]}
           </div>
-          <div>{((record[0] / record[1]) * 100).toFixed(4)}%</div>
+          <div className={styles.recordText}>
+            {((record[0] / record[1]) * 100).toFixed(4)}%
+          </div>
         </div>
       </div>
       <div className={styles.content}>
